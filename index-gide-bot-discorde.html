@@ -3,13 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord Bot Guide</title>
+    <title>Guide for Discord Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Discord Bot Guide</h1>
-    <p>This is a guide for creating a Discord bot using the Discord.js library.</p>
-    <h2>Getting Started</h2>
-    <p>Here are the steps to get started with creating a Discord bot...</p>
-    <!-- More content here -->
+    <div class="container">
+        <h1>Complete Guide to Your Discord Bot</h1>
+        <p>Welcome to the guide for setting up and using your Discord bot. This guide will help you understand how to configure, run, and manage your bot effectively.</p>
+        <h2>1. Introduction</h2>
+        <p>Discord bots are programs that can automate tasks on Discord servers. They can be simple, performing a single task, or complex, handling multiple commands and functions.</p>
+        
+        <h2>2. Setting Up Your Bot</h2>
+        <p>To set up your Discord bot, you will need:</p>
+        <ul>
+            <li>A Discord account</li>
+            <li>A server where you can test your bot</li>
+            <li>Node.js installed on your local machine</li>
+            <li>A code editor (like Visual Studio Code)</li>
+        </ul>
+        
+        <h2>3. Creating a Bot Account</h2>
+        <p>Follow these steps to create a bot account within Discord:</p>
+        <ol>
+            <li>Go to the <a href="https://discord.com/developers/applications">Discord Developer Portal</a>.</li>
+            <li>Click on the "New Application" button.</li>
+            <li>Give your application a name and click "Create".</li>
+            <li>Navigate to the "Bot" tab and click "Add Bot".</li>
+        </ol>
+        
+        <h2>4. Inviting Your Bot to a Server</h2>
+        <p>To invite your bot, generate an OAuth2 URL using the following settings:</p>
+        <ul>
+            <li>Scopes: bot</li>
+            <li>Bot Permissions: Administrator</li>
+        </ul>
+        <p>Copy the generated URL and paste it in your browser to invite the bot to your server.</p>
+        
+        <h2>5. Running Your Bot</h2>
+        <p>Once your bot is configured and invited, you can run it by navigating to your bot's project directory in your terminal and using:</p>
+        <pre><code>node index.js</code></pre>
+        
+        <h2>6. Conclusion</h2>
+        <p>Congratulations! You’ve set up your Discord bot. Continue exploring the Discord API to enhance your bot's functionality.</p>
+    </div>
 </body>
 </html>
